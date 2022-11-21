@@ -30,18 +30,18 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(24.0),
-        child: AutofillGroup(
+        child: AutofillGroup( //複数項目をセットで保存する場合に使用
           child: Column(
             children: [
               TextFormField(
-                keyboardType: TextInputType.emailAddress,
                 decoration: const InputDecoration(labelText: "e-mail"),
-                autofillHints: const [AutofillHints.email],
+                keyboardType: TextInputType.emailAddress,
+                autofillHints: const [AutofillHints.email], //emailの自動入力
               ),
               TextFormField(
                 decoration: const InputDecoration(labelText: "Password"),
                 obscureText: true,
-                autofillHints: const [AutofillHints.password],
+                autofillHints: const [AutofillHints.password],  //PWの自動入力
               ),
             ],
           ),
