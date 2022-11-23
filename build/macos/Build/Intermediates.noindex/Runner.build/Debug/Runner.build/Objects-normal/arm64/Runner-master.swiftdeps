@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "d1e60f1a61a7aa7d92ef8f26e43b6edd1e676d702cedc81791678c0fbf1fe810"
+build_start_time: [1669170227, 43400049]
+build_end_time: [1669170228, 254351139]
+inputs:
+  "/Users/osanaidaisuke/project/sample-autocomplete/macos/Flutter/GeneratedPluginRegistrant.swift": [1669170221, 914110660]
+  "/Users/osanaidaisuke/project/sample-autocomplete/macos/Runner/AppDelegate.swift": [1666519275, 422602653]
+  "/Users/osanaidaisuke/project/sample-autocomplete/macos/Runner/MainFlutterWindow.swift": [1666519275, 423680305]
